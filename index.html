@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="popup.css" rel="stylesheet">
+    <title>Document</title>
+    
+</head>
+<body>
+    <button class="btn1" id="open" >Open modal</button>
+       <dialog  class="container modal" id="modal">
+        <button type="button" class="close" id="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <!-- <button class="btn1" id="close" onclick="close()">close modal</button> -->
+        <H2 class="heading">Stackfindover</H2>
+        <div class="box">
+            <p class="info">Sign in to your account</p>
+            <p class="email_text">Email</p>
+            <input type="email" class="input1">
+            
+            <p>Password <span class="forget">Forget Your password</span></p>
+            <input type="password" class="input2">
+            <p>
+            <input type="checkbox">Stay Sign in for a week
+        </p>
+        <button class="btn">Continue</button>
+        <p class="google">Use single sign-on (Goggle) instaed</p>
+        </div>
+    </dialog>
+    <script src="popup.js"></script>
+   
+</body>
+</html>
