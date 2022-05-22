@@ -50,11 +50,11 @@ p .forget{
         top:50%;
         left:50%;
         
-        transform: translate(-55%,-10%);
+        transform: translate(-50%,-10%);
         margin: 0 auto;
         margin-top: 10px;
         height: 35px;
-        width: 400px;
+        width: 380px;
         border:solid rgb(141, 139, 139);
         border-radius: 5px;
         padding-left: 8px;
@@ -65,12 +65,12 @@ p .forget{
     position: relative;
     top:50%;
     left:50%;
-    transform: translate(-55%,-40%);
+    transform: translate(-50%,-40%);
     margin: 0 auto;
     border:solid rgb(141, 139, 139);
     margin-top: 10px;
     height: 35px;
-    width: 400px;
+    width: 380px;
     padding-left: 8px;
     border-radius: 5px;;
   
